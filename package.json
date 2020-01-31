@@ -1,0 +1,26 @@
+{
+    "name": "atlantis",
+    "displayName": "Atlantis",
+    "description": "A darker version of Charcoal Oceanic Next. This theme is also a bit more specific with which properties it themes.",
+    "version": "0.0.1",
+    "publisher": "nhuesmann",
+    "repository": {
+      "url": "https://github.com/nhuesmann/vscode-extension-atlantis"
+    },
+    "license": "MIT",
+    "engines": {
+        "vscode": "^1.41.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Atlantis",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Atlantis-color-theme.json"
+            }
+        ]
+    }
+}
