@@ -40,8 +40,8 @@
         "variable.other.object",
         "variable.other.readwrite",
         "punctuation.definition.string",
-        "punctuation.definition.string.template.begin string.template",
-        "punctuation.definition.string.template.end string.template",
+        "punctuation.definition.string.template.begin",
+        "punctuation.definition.string.template.end",
         "meta.jsx.children"
       ],
       "settings": {
@@ -269,7 +269,7 @@
         "keyword.other.unit"
       ],
       "settings": {
-        "foreground": "#F78C6C"
+        "foreground": "#FC9E50"
       }
     },
     {
@@ -301,7 +301,6 @@
     {
       "name": "String, Symbols, Inherited Class, Markup Heading",
       "scope": [
-        "string.template",
         "string.quoted.single",
         "string.quoted.double",
         "constant.other.symbol",
