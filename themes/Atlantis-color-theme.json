@@ -106,7 +106,7 @@
     //     "meta.objectliteral meta.object.member meta.objectliteral meta.object.member meta.objectliteral meta.object.member meta.objectliteral meta.object.member meta.objectliteral meta.object.member meta.object-literal.key"
     //   ],
     //   "settings": {
-    //     "foreground": "#fac863"
+    //     "foreground": "#F7D265"
     //   }
     // },
     // {
@@ -330,17 +330,16 @@
       }
     },
     {
-      "name": "Meta vars",
-      "scope": "support.variable.dom, support.class",
+      "name": "Meta vars, Entity Types",
+      "scope": [
+        "support.variable.dom",
+        "support.class",
+        "support.variable.object.process",
+        "support.variable.property.process",
+        "support.type"
+      ],
       "settings": {
-        "foreground": "#fac863"
-      }
-    },
-    {
-      "name": "Entity Types",
-      "scope": ["support.type"],
-      "settings": {
-        "foreground": "#fac863"
+        "foreground": "#F7D265"
       }
     },
     {
@@ -355,7 +354,7 @@
       ],
       "settings": {
         // "foreground": "#B2CCD6"
-        "foreground": "#fac863"
+        "foreground": "#F7D265"
       }
     },
     {
@@ -403,14 +402,14 @@
       ],
       "settings": {
         "fontStyle": "italic",
-        "foreground": "#FFCB6B"
+        "foreground": "#F7D265"
       }
     },
     {
       "name": "CSS Classes",
       "scope": ["entity.other.attribute-name.class"],
       "settings": {
-        "foreground": "#FFCB6B"
+        "foreground": "#F7D265"
       }
     },
     {
@@ -487,7 +486,7 @@
         "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
       ],
       "settings": {
-        "foreground": "#FFCB6B"
+        "foreground": "#F7D265"
       }
     },
     {
@@ -661,7 +660,7 @@
       "name": "Markdown - Link Anchor",
       "scope": ["constant.other.reference.link.markdown"],
       "settings": {
-        "foreground": "#FFCB6B"
+        "foreground": "#F7D265"
       }
     },
     {
