@@ -294,7 +294,7 @@
         "constant.language.undefined"
       ],
       "settings": {
-        "foreground": "#F78C6C",
+        "foreground": "#FC9E50",
         "fontStyle": "italic"
       }
     },
@@ -497,7 +497,7 @@
         "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
       ],
       "settings": {
-        "foreground": "#F78C6C"
+        "foreground": "#FC9E50"
       }
     },
     {
@@ -627,7 +627,7 @@
       "scope": ["markup.underline"],
       "settings": {
         "fontStyle": "underline",
-        "foreground": "#F78C6C"
+        "foreground": "#FC9E50"
       }
     },
     {
