@@ -59,7 +59,7 @@
       "name": "Object Properties - Nested Properties",
       "scope": ["variable.other.object.property"],
       "settings": {
-        "fontStyle": "italic",
+        // "fontStyle": "italic",
         "foreground": "#f7f0a5"
       }
     },
@@ -208,10 +208,12 @@
       }
     },
     {
-      "name": "Import Package Name",
+      "name": "Import Package Name, Export Path String",
       "scope": [
         "meta.import string.quoted.double",
-        "meta.import string.quoted.single"
+        "meta.import string.quoted.single",
+        "meta.export string.quoted.double",
+        "meta.export string.quoted.single"
       ],
       "settings": {
         "foreground": "#ecc48dff"
@@ -336,7 +338,8 @@
         "support.class",
         "support.variable.object.process",
         "support.variable.property.process",
-        "support.type"
+        "support.type",
+        "new.expr entity.name.type"
       ],
       "settings": {
         "foreground": "#F7D265"
