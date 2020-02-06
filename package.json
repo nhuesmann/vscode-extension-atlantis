@@ -2,7 +2,7 @@
     "name": "atlantis",
     "displayName": "Atlantis",
     "description": "A darker version of Charcoal Oceanic Next. This theme is also a bit more specific with which properties it themes.",
-    "version": "0.0.5",
+    "version": "0.0.6",
     "publisher": "nhuesmann",
     "repository": {
       "url": "https://github.com/nhuesmann/vscode-extension-atlantis"

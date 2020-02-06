@@ -301,6 +301,7 @@
     {
       "name": "String, Symbols, Inherited Class, Markup Heading",
       "scope": [
+        "string.template",
         "string.quoted.single",
         "string.quoted.double",
         "constant.other.symbol",
