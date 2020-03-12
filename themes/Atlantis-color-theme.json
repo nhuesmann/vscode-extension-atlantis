@@ -295,9 +295,16 @@
 				"source.scss support.type.property-name",
 				"source.less support.type.property-name",
 				"source.stylus support.type.property-name",
-				"source.postcss support.type.property-name"
+				"source.postcss support.type.property-name",
+				"source.css meta.property-value",
+				"source.sass meta.property-value",
+				"source.scss meta.property-value",
+				"source.less meta.property-value",
+				"source.stylus meta.property-value",
+				"source.postcss meta.property-value"
 			],
 			"settings": {
+        "fontStyle": "",
 				"foreground": "#7FB4FF"
 				// "foreground": "#FABBBB"
 			}
@@ -368,7 +375,13 @@
 		{
 			"name": "Attributes",
 			"scope": [
-				"entity.other.attribute-name"
+        "entity.other.attribute-name",
+        "source.css meta.property-name",
+        "source.sass meta.property-name",
+				"source.scss meta.property-name",
+				"source.less meta.property-name",
+				"source.stylus meta.property-name",
+				"source.postcss meta.property-name"
 			],
 			"settings": {
         "fontStyle": "italic",

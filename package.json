@@ -2,7 +2,7 @@
     "name": "atlantis",
     "displayName": "Atlantis",
     "description": "The evolution of Charcoal Oceanic Next",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "publisher": "nhuesmann",
     "repository": {
       "url": "https://github.com/nhuesmann/vscode-extension-atlantis"
